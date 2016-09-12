@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5AB2C51D2D02ED0028EB7E /* Silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2C41D2D02ED0028EB7E /* Silence.wav */; };
+		4A5AB2C91D2D02FF0028EB7E /* 4 by 4 Grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2C61D2D02FF0028EB7E /* 4 by 4 Grid.png */; };
+		4A5AB2CA1D2D02FF0028EB7E /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2C71D2D02FF0028EB7E /* Pause.png */; };
+		4A5AB2CB1D2D02FF0028EB7E /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2C81D2D02FF0028EB7E /* Play.png */; };
+		4A5AB2CD1D2D03650028EB7E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AB2CC1D2D03650028EB7E /* AVFoundation.framework */; };
+		4A5AB2CF1D2D03700028EB7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AB2CE1D2D03700028EB7E /* AudioToolbox.framework */; };
+		4A5AB2D51D3606130028EB7E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2D41D3606130028EB7E /* icon.png */; };
+		4A5AB2D71D3606270028EB7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2D61D3606270028EB7E /* Images.xcassets */; };
+		4A5AB2DA1D3618650028EB7E /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2D81D3618650028EB7E /* Minus.png */; };
+		4A5AB2DB1D3618650028EB7E /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2D91D3618650028EB7E /* Plus.png */; };
+		4A5AB2DD1D36186F0028EB7E /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AB2DC1D36186F0028EB7E /* Refresh.png */; };
+		4A8850CA1D86994500D8A271 /* MemoryAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850C51D86994500D8A271 /* MemoryAllocator.m */; };
+		4A8850CB1D86994500D8A271 /* ResourceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850C71D86994500D8A271 /* ResourceMonitor.m */; };
+		4A8850CC1D86994500D8A271 /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850C91D86994500D8A271 /* ThirdView.m */; };
+		4A8850D31D86995C00D8A271 /* BackgroundRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850CE1D86995C00D8A271 /* BackgroundRunner.m */; };
+		4A8850D41D86995C00D8A271 /* iMonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850D01D86995C00D8A271 /* iMonLog.m */; };
+		4A8850D51D86995C00D8A271 /* iMonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850D21D86995C00D8A271 /* iMonUtils.m */; };
+		4A8850D81D86996800D8A271 /* PCPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850D71D86996800D8A271 /* PCPieChart.m */; };
+		4A8850DD1D86997F00D8A271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850DA1D86997F00D8A271 /* AppDelegate.m */; };
+		4A8850DE1D86997F00D8A271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850DC1D86997F00D8A271 /* ViewController.m */; };
+		4A8850E51D86999800D8A271 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8850DF1D86999800D8A271 /* Default-568h@2x.png */; };
+		4A8850E61D86999800D8A271 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8850E01D86999800D8A271 /* Default.png */; };
+		4A8850E71D86999800D8A271 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8850E11D86999800D8A271 /* Default@2x.png */; };
+		4A8850E81D86999800D8A271 /* iRMon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8850E21D86999800D8A271 /* iRMon-Info.plist */; };
+		4A8850E91D86999800D8A271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8850E41D86999800D8A271 /* main.m */; };
+		DED82CBC17A24C7D00FA7E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED82CBB17A24C7D00FA7E87 /* UIKit.framework */; };
+		DED82CBE17A24C7D00FA7E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED82CBD17A24C7D00FA7E87 /* Foundation.framework */; };
+		DED82CC017A24C7D00FA7E87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED82CBF17A24C7D00FA7E87 /* CoreGraphics.framework */; };
+		DED82CC617A24C7D00FA7E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED82CC417A24C7D00FA7E87 /* InfoPlist.strings */; };
+		DED82CD517A24C7D00FA7E87 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED82CD317A24C7D00FA7E87 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A5AB2C41D2D02ED0028EB7E /* Silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Silence.wav; sourceTree = "<group>"; };
+		4A5AB2C61D2D02FF0028EB7E /* 4 by 4 Grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 by 4 Grid.png"; sourceTree = "<group>"; };
+		4A5AB2C71D2D02FF0028EB7E /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		4A5AB2C81D2D02FF0028EB7E /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		4A5AB2CC1D2D03650028EB7E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A5AB2CE1D2D03700028EB7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A5AB2D41D3606130028EB7E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4A5AB2D61D3606270028EB7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iRMon/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		4A5AB2D81D3618650028EB7E /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		4A5AB2D91D3618650028EB7E /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		4A5AB2DC1D36186F0028EB7E /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		4A8850C41D86994500D8A271 /* MemoryAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryAllocator.h; path = iRMonView/MemoryAllocator.h; sourceTree = "<group>"; };
+		4A8850C51D86994500D8A271 /* MemoryAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemoryAllocator.m; path = iRMonView/MemoryAllocator.m; sourceTree = "<group>"; };
+		4A8850C61D86994500D8A271 /* ResourceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceMonitor.h; path = iRMonView/ResourceMonitor.h; sourceTree = "<group>"; };
+		4A8850C71D86994500D8A271 /* ResourceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceMonitor.m; path = iRMonView/ResourceMonitor.m; sourceTree = "<group>"; };
+		4A8850C81D86994500D8A271 /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdView.h; path = iRMonView/ThirdView.h; sourceTree = "<group>"; };
+		4A8850C91D86994500D8A271 /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdView.m; path = iRMonView/ThirdView.m; sourceTree = "<group>"; };
+		4A8850CD1D86995C00D8A271 /* BackgroundRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundRunner.h; path = Util/BackgroundRunner.h; sourceTree = "<group>"; };
+		4A8850CE1D86995C00D8A271 /* BackgroundRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundRunner.m; path = Util/BackgroundRunner.m; sourceTree = "<group>"; };
+		4A8850CF1D86995C00D8A271 /* iMonLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iMonLog.h; path = Util/iMonLog.h; sourceTree = "<group>"; };
+		4A8850D01D86995C00D8A271 /* iMonLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iMonLog.m; path = Util/iMonLog.m; sourceTree = "<group>"; };
+		4A8850D11D86995C00D8A271 /* iMonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iMonUtils.h; path = Util/iMonUtils.h; sourceTree = "<group>"; };
+		4A8850D21D86995C00D8A271 /* iMonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iMonUtils.m; path = Util/iMonUtils.m; sourceTree = "<group>"; };
+		4A8850D61D86996800D8A271 /* PCPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCPieChart.h; path = Chart/PCPieChart.h; sourceTree = "<group>"; };
+		4A8850D71D86996800D8A271 /* PCPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCPieChart.m; path = Chart/PCPieChart.m; sourceTree = "<group>"; };
+		4A8850D91D86997F00D8A271 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iRMonView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4A8850DA1D86997F00D8A271 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iRMonView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4A8850DB1D86997F00D8A271 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iRMonView/ViewController.h; sourceTree = SOURCE_ROOT; };
+		4A8850DC1D86997F00D8A271 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iRMonView/ViewController.m; sourceTree = SOURCE_ROOT; };
+		4A8850DF1D86999800D8A271 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "iRMonView/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		4A8850E01D86999800D8A271 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = iRMonView/Default.png; sourceTree = SOURCE_ROOT; };
+		4A8850E11D86999800D8A271 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "iRMonView/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		4A8850E21D86999800D8A271 /* iRMon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iRMon-Info.plist"; path = "iRMonView/iRMon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4A8850E31D86999800D8A271 /* iRMon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iRMon-Prefix.pch"; path = "iRMonView/iRMon-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4A8850E41D86999800D8A271 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iRMonView/main.m; sourceTree = SOURCE_ROOT; };
+		DED82CB817A24C7D00FA7E87 /* iRMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED82CBB17A24C7D00FA7E87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DED82CBD17A24C7D00FA7E87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DED82CBF17A24C7D00FA7E87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DED82CC517A24C7D00FA7E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED82CD417A24C7D00FA7E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED82CB517A24C7D00FA7E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AB2CF1D2D03700028EB7E /* AudioToolbox.framework in Frameworks */,
+				4A5AB2CD1D2D03650028EB7E /* AVFoundation.framework in Frameworks */,
+				DED82CBC17A24C7D00FA7E87 /* UIKit.framework in Frameworks */,
+				DED82CBE17A24C7D00FA7E87 /* Foundation.framework in Frameworks */,
+				DED82CC017A24C7D00FA7E87 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5AB2B91D2CFDBF0028EB7E /* iMonUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4A8850CD1D86995C00D8A271 /* BackgroundRunner.h */,
+				4A8850CE1D86995C00D8A271 /* BackgroundRunner.m */,
+				4A8850CF1D86995C00D8A271 /* iMonLog.h */,
+				4A8850D01D86995C00D8A271 /* iMonLog.m */,
+				4A8850D11D86995C00D8A271 /* iMonUtils.h */,
+				4A8850D21D86995C00D8A271 /* iMonUtils.m */,
+			);
+			name = iMonUtil;
+			sourceTree = "<group>";
+		};
+		4A5AB2C31D2D02E40028EB7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AB2DC1D36186F0028EB7E /* Refresh.png */,
+				4A5AB2D81D3618650028EB7E /* Minus.png */,
+				4A5AB2D91D3618650028EB7E /* Plus.png */,
+				4A5AB2D41D3606130028EB7E /* icon.png */,
+				4A5AB2C61D2D02FF0028EB7E /* 4 by 4 Grid.png */,
+				4A5AB2C71D2D02FF0028EB7E /* Pause.png */,
+				4A5AB2C81D2D02FF0028EB7E /* Play.png */,
+				4A5AB2C41D2D02ED0028EB7E /* Silence.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A5AB2D01D2D09FD0028EB7E /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				4A8850D61D86996800D8A271 /* PCPieChart.h */,
+				4A8850D71D86996800D8A271 /* PCPieChart.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		DED82CAF17A24C7D00FA7E87 = {
+			isa = PBXGroup;
+			children = (
+				4A5AB2D01D2D09FD0028EB7E /* Graph */,
+				4A5AB2C31D2D02E40028EB7E /* Resources */,
+				4A5AB2B91D2CFDBF0028EB7E /* iMonUtil */,
+				DED82CC117A24C7D00FA7E87 /* iRMon */,
+				DED82CEE17A2535900FA7E87 /* Views */,
+				DED82CBA17A24C7D00FA7E87 /* Frameworks */,
+				DED82CB917A24C7D00FA7E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED82CB917A24C7D00FA7E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED82CB817A24C7D00FA7E87 /* iRMon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED82CBA17A24C7D00FA7E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AB2CE1D2D03700028EB7E /* AudioToolbox.framework */,
+				4A5AB2CC1D2D03650028EB7E /* AVFoundation.framework */,
+				DED82CBB17A24C7D00FA7E87 /* UIKit.framework */,
+				DED82CBD17A24C7D00FA7E87 /* Foundation.framework */,
+				DED82CBF17A24C7D00FA7E87 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED82CC117A24C7D00FA7E87 /* iRMon */ = {
+			isa = PBXGroup;
+			children = (
+				4A8850D91D86997F00D8A271 /* AppDelegate.h */,
+				4A8850DA1D86997F00D8A271 /* AppDelegate.m */,
+				4A8850DB1D86997F00D8A271 /* ViewController.h */,
+				4A8850DC1D86997F00D8A271 /* ViewController.m */,
+				DED82CD317A24C7D00FA7E87 /* MainStoryboard.storyboard */,
+				4A5AB2D61D3606270028EB7E /* Images.xcassets */,
+				DED82CC217A24C7D00FA7E87 /* Supporting Files */,
+			);
+			name = iRMon;
+			path = IRMonView;
+			sourceTree = "<group>";
+		};
+		DED82CC217A24C7D00FA7E87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8850DF1D86999800D8A271 /* Default-568h@2x.png */,
+				4A8850E01D86999800D8A271 /* Default.png */,
+				4A8850E11D86999800D8A271 /* Default@2x.png */,
+				4A8850E21D86999800D8A271 /* iRMon-Info.plist */,
+				4A8850E31D86999800D8A271 /* iRMon-Prefix.pch */,
+				4A8850E41D86999800D8A271 /* main.m */,
+				DED82CC417A24C7D00FA7E87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED82CEE17A2535900FA7E87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A8850C41D86994500D8A271 /* MemoryAllocator.h */,
+				4A8850C51D86994500D8A271 /* MemoryAllocator.m */,
+				4A8850C61D86994500D8A271 /* ResourceMonitor.h */,
+				4A8850C71D86994500D8A271 /* ResourceMonitor.m */,
+				4A8850C81D86994500D8A271 /* ThirdView.h */,
+				4A8850C91D86994500D8A271 /* ThirdView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED82CB717A24C7D00FA7E87 /* iRMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED82CDB17A24C7D00FA7E87 /* Build configuration list for PBXNativeTarget "iRMon" */;
+			buildPhases = (
+				DED82CB417A24C7D00FA7E87 /* Sources */,
+				DED82CB517A24C7D00FA7E87 /* Frameworks */,
+				DED82CB617A24C7D00FA7E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRMon;
+			productName = iRMon;
+			productReference = DED82CB817A24C7D00FA7E87 /* iRMon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED82CB017A24C7D00FA7E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iRMon;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = NTS;
+				TargetAttributes = {
+					DED82CB717A24C7D00FA7E87 = {
+						DevelopmentTeam = 23BZTR332X;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DED82CB317A24C7D00FA7E87 /* Build configuration list for PBXProject "iRMon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DED82CAF17A24C7D00FA7E87;
+			productRefGroup = DED82CB917A24C7D00FA7E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED82CB717A24C7D00FA7E87 /* iRMon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED82CB617A24C7D00FA7E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AB2CB1D2D02FF0028EB7E /* Play.png in Resources */,
+				DED82CC617A24C7D00FA7E87 /* InfoPlist.strings in Resources */,
+				4A5AB2D51D3606130028EB7E /* icon.png in Resources */,
+				4A8850E61D86999800D8A271 /* Default.png in Resources */,
+				4A5AB2D71D3606270028EB7E /* Images.xcassets in Resources */,
+				4A5AB2DD1D36186F0028EB7E /* Refresh.png in Resources */,
+				4A5AB2CA1D2D02FF0028EB7E /* Pause.png in Resources */,
+				4A8850E81D86999800D8A271 /* iRMon-Info.plist in Resources */,
+				4A5AB2C51D2D02ED0028EB7E /* Silence.wav in Resources */,
+				4A8850E71D86999800D8A271 /* Default@2x.png in Resources */,
+				4A8850E51D86999800D8A271 /* Default-568h@2x.png in Resources */,
+				4A5AB2DB1D3618650028EB7E /* Plus.png in Resources */,
+				4A5AB2C91D2D02FF0028EB7E /* 4 by 4 Grid.png in Resources */,
+				4A5AB2DA1D3618650028EB7E /* Minus.png in Resources */,
+				DED82CD517A24C7D00FA7E87 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED82CB417A24C7D00FA7E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8850DD1D86997F00D8A271 /* AppDelegate.m in Sources */,
+				4A8850D51D86995C00D8A271 /* iMonUtils.m in Sources */,
+				4A8850CC1D86994500D8A271 /* ThirdView.m in Sources */,
+				4A8850DE1D86997F00D8A271 /* ViewController.m in Sources */,
+				4A8850CB1D86994500D8A271 /* ResourceMonitor.m in Sources */,
+				4A8850D41D86995C00D8A271 /* iMonLog.m in Sources */,
+				4A8850CA1D86994500D8A271 /* MemoryAllocator.m in Sources */,
+				4A8850D81D86996800D8A271 /* PCPieChart.m in Sources */,
+				4A8850E91D86999800D8A271 /* main.m in Sources */,
+				4A8850D31D86995C00D8A271 /* BackgroundRunner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DED82CC417A24C7D00FA7E87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED82CC517A24C7D00FA7E87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DED82CD317A24C7D00FA7E87 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED82CD417A24C7D00FA7E87 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED82CD917A24C7D00FA7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DED82CDA17A24C7D00FA7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED82CDC17A24C7D00FA7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRMonView/iRMon-Prefix.pch";
+				INFOPLIST_FILE = "iRMonView/iRMon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.iMon;
+				PRODUCT_NAME = iRMon;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DED82CDD17A24C7D00FA7E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRMonView/iRMon-Prefix.pch";
+				INFOPLIST_FILE = "iRMonView/iRMon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.iMon;
+				PRODUCT_NAME = iRMon;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED82CB317A24C7D00FA7E87 /* Build configuration list for PBXProject "iRMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED82CD917A24C7D00FA7E87 /* Debug */,
+				DED82CDA17A24C7D00FA7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED82CDB17A24C7D00FA7E87 /* Build configuration list for PBXNativeTarget "iRMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED82CDC17A24C7D00FA7E87 /* Debug */,
+				DED82CDD17A24C7D00FA7E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED82CB017A24C7D00FA7E87 /* Project object */;
+}
