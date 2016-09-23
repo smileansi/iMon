@@ -3,7 +3,7 @@ iOS에서 CPU / Memory / Traffics 정보를 측정하기 위한 툴.
 
 추가로, dummy memory 생성을 위한 Memory Allocator 기능도 포함됨
 
-
+![sample.png](https://github.com/smileansi/iMon/blob/master/sample.png)
 
 
 ### 측정범위
